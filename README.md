@@ -26,9 +26,9 @@ Code reviews can be found in the code-review.md file.
 # First level heading
 ## Second level heading
 ### Third level heading
-**bold text**
-*italic text*
-~~Strikethrough text~~
+**bold text**<br>
+*italic text*<br>
+~~Strikethrough text~~<br>
 `<p> Wow code</p>`
 ```
 <p> Block 1</p>
