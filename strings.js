@@ -5,6 +5,10 @@ const insertedVariable = "THIS";
 const variableSentence = `Use backticks to insert variables like ${insertedVariable}`;
 console.log(insertedVariable.length); // get length of string (output: 4)
 
+// HOW TO FIND SUBSTRINGS IN A STRING
+console.log(fullSentence.indexOf("This")) // output: 0 (returns index of the first character of the string when it finds it which is 0)
+console.log(fullSentence.indexOf("this")) // output: 41 (using indexOf is case sensitive so the first "this" it finds is at index 41 not index 0)
+
 // ========== CHANGING CASE OF STRINGS ========== //
 
 let mixedCaseString = "HeLLo WoRLd!";
